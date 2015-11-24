@@ -1,0 +1,135 @@
+.root {
+    -fx-background-color: #fff09f;
+    -fx-font-size: 20;
+    -fx-font-family: "tahoma";
+    -fx-text-fill: #0c00b2;
+}
+
+.button {
+    -fx-background-color: #fff09f;
+    -fx-text-fill: #0c00b2;
+}
+
+.button:hover {
+    -fx-text-fill: #B2669C;
+}
+
+.content {
+    -fx-background-color: #fff09f;
+}
+
+.text-area {
+    -fx-background-color: #fff09f;
+    -fx-text-fill: #0c00b2;
+}
+
+.cell {
+    -fx-background-color: #fff09f;
+    -fx-text-fill: #0c00b2;
+    -fx-border-color: #fff09f;
+}
+
+.cell:hover {
+    -fx-text-fill: #B2669C;
+}
+
+.list-view {
+    -fx-background-color: #fff09f;
+}
+
+#beerInfoTextArea {
+    -fx-font-size: 12;
+}
+
+.table-view {
+    -fx-font-size: 12;
+    -fx-background-color: #fff09f;
+}
+
+.table-view .arrow {
+    -fx-background-color: #0c00b2;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-fill: #fff09f;
+    -fx-background-color: #fff09f;
+    -fx-font-size: 15;
+    -fx-font-weight: normal;
+}
+
+.table-row-cell:selected .text {
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-background-color: #fff09f;
+    -fx-text-fill: #0c00b2;
+    -fx-alignment: baseline-left
+}
+
+.scroll-bar {
+    -fx-background-color: #fff09f;
+    -fx-grid-lines-visible: false;
+}
+
+.scroll-pane {
+    -fx-background-color: #fff09f;
+    -fx-grid-lines-visible: false;
+}
+
+.split-pane {
+    -fx-background-color: #fff09f;
+    -fx-grid-lines-visible: false;
+}
+
+.tab-pane {
+    -fx-background-color: #fff09f;
+}
+
+.text-field{
+    -fx-font-size: 15;
+}
+
+#aboutTextArea {
+    -fx-font-size: 15;
+}
+
+#addButton {
+    -fx-font-size: 15;
+}
+
+#editButton {
+    -fx-font-size: 15;
+}
+
+#deleteButton {
+    -fx-font-size: 15;
+}
+
+.dialog-pane {
+    -fx-background-color: #fff09f;
+    -fx-text-fill: #0c00b2;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: black;
+    -fx-text-fill: #0c00b2;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #fff09f;
+    -fx-text-fill: #0c00b2;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: #0c00b2;
+}
+
+.tool-bar{
+    -fx-background-color: #fff09f;
+}
+
+#addedToFavText {
+    -fx-font-size: 15;
+    -fx-fill: #0c00b2;
+}
