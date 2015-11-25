@@ -15,7 +15,7 @@
     <columnConstraints>
         <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="200.0" />
         <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="650.0" />
-        <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="200.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="225.0" />
     </columnConstraints>
     <rowConstraints>
         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
@@ -72,9 +72,9 @@
                         <TableColumn fx:id="originColumn" minWidth="50.0" text="Origin" />
                         <TableColumn fx:id="alcColumn" minWidth="25.0" text="Alc%" />
                     </columns>
-                    <columnResizePolicy>
-                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
-                    </columnResizePolicy>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
                 </TableView>
                 <ToolBar id="addEditDeleteToolbar" fx:id="addEditDeleteToolbar" layoutX="295.0" layoutY="500.0" visible="false" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="507.0">
                     <items>
@@ -92,9 +92,9 @@
             <children>
                 <ImageView fx:id="beerImage" fitHeight="300.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
                 <TextArea id="beerInfoTextArea" fx:id="beerInfoTextArea" layoutX="-8.0" layoutY="361.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="150.0" prefWidth="170.0" wrapText="true" AnchorPane.bottomAnchor="67.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="361.0" />
-                <Button fx:id="addToFavButton" layoutX="14.0" layoutY="511.0" mnemonicParsing="false" onAction="#addToFavButtonClicked" text="Add to Favorites" visible="false" />
-                <Button fx:id="removeFromFavButton" layoutX="14.0" layoutY="511.0" mnemonicParsing="false" onAction="#removeFromFavButtonClicked" text="Remove Favorite" visible="false" />
-            <Text id="addedToFavText" fx:id="feedBackText" layoutX="28.0" layoutY="569.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beer Already Added!" visible="false" AnchorPane.bottomAnchor="5.8359375" AnchorPane.leftAnchor="28.0" AnchorPane.rightAnchor="41.03564453125" AnchorPane.topAnchor="554.498046875" />
+                <Button fx:id="addToFavButton" layoutX="14.0" layoutY="511.0" mnemonicParsing="false" onAction="#addToFavButtonClicked" text="Add to Favorites" visible="false" AnchorPane.leftAnchor="34.0" />
+                <Button fx:id="removeFromFavButton" layoutX="14.0" layoutY="511.0" mnemonicParsing="false" onAction="#removeFromFavButtonClicked" text="Remove Favorite" visible="false" AnchorPane.leftAnchor="34.0" />
+            <Text id="addedToFavText" fx:id="feedBackText" layoutX="28.0" layoutY="569.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Beer Already Added!" visible="false" AnchorPane.bottomAnchor="5.8359375" AnchorPane.leftAnchor="48.0" AnchorPane.rightAnchor="41.03564453125" AnchorPane.topAnchor="554.498046875" />
             </children>
             <GridPane.margin>
                 <Insets bottom="5.0" left="5.0" right="5.0" top="20.0" />
