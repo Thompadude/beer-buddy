@@ -24,9 +24,18 @@
 }
 
 .cell {
-    -fx-background-color: #fff09f;
     -fx-text-fill: #0c00b2;
-    -fx-border-color: #fff09f;
+    -fx-border-width: 0;
+}
+
+.table-row-cell {
+    -fx-background-color: #fff09f;
+    -fx-border-width: 0;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #FFF4B8;
+    -fx-border-width: 0;
 }
 
 .cell:hover {
@@ -65,6 +74,10 @@
     -fx-background-color: #fff09f;
     -fx-text-fill: #0c00b2;
     -fx-alignment: baseline-left
+}
+
+.label:hover {
+    -fx-text-fill: #B2669C;
 }
 
 .scroll-bar {
